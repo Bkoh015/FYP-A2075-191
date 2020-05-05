@@ -3,7 +3,7 @@
 
 yclass = 1:5;                                    %Number of classes depending if using for Range BiLSTM/ Azimuthal BiLSTM
 
-yclass = repmat(yclass, 2985, 1);                 %create the answers from 1 to 5, the number change at every n interval, in this case is 2985
+yclass = repmat(yclass, 597, 1);                 %create the answers from 1 to 5, the number change at every n interval, in this case is 597
 
 % Reshape to obtain a vector
 yclass = reshape(yclass, 1, numel(yclass));
